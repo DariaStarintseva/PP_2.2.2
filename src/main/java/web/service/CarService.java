@@ -7,9 +7,14 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 public interface CarService {
-    public List<Car> getAllCars();
+    List<Car> getAllCars();
 
-    public List<Car> getCars(int count);
+    List<Car> getCars(int count);
+
+
+
+
+
 
 
 }
